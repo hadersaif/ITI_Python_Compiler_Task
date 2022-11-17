@@ -29,9 +29,11 @@ def tokenize(code):
         ('unary_operator', r'\*|&|\+|-|\!|~'),
         ('letter',r'[A-z]'),
         ('digits',r'[0-9]'),
+        ('digit', r'\d{1}'),
         ('block_comment',r'/\*([^*]|[\r\n]*\*/'),
         ('line_comment',r'\//-*'),
         ('relop' , r'(>| >= | < |<=|==|!=)'),
+        ('String', r'\".*\"|\'.*\''),
         ('logical_operator' ,r'(&|!|\| | )')
     ]
 
