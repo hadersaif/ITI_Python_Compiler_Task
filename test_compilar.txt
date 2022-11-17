@@ -1,3 +1,10 @@
 
 hader * mfmc &nlkd +czhdcb,c -ddd !ldf
 
+a b c d e f g h 
+   236
+   5
+   4
+   <|>|<=|>=|=====|!=
+   <<=
+
